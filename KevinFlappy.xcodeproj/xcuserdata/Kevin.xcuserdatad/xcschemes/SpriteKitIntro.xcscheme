@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A510BB71D163A93006E6258"
-               BuildableName = "SpriteKitIntro.app"
-               BlueprintName = "SpriteKitIntro"
-               ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+               BuildableName = "KevinFlappy.app"
+               BlueprintName = "KevinFlappy"
+               ReferencedContainer = "container:KevinFlappy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A510BCF1D163A94006E6258"
-               BuildableName = "SpriteKitIntroTests.xctest"
-               BlueprintName = "SpriteKitIntroTests"
-               ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+               BuildableName = "KevinFlappy.xctest"
+               BlueprintName = "KevinFlappyTests"
+               ReferencedContainer = "container:KevinFlappy.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A510BDA1D163A94006E6258"
-               BuildableName = "SpriteKitIntroUITests.xctest"
-               BlueprintName = "SpriteKitIntroUITests"
-               ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+               BuildableName = "KevinFlappy.xctest"
+               BlueprintName = "KevinFlappyUITests"
+               ReferencedContainer = "container:KevinFlappy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A510BB71D163A93006E6258"
-            BuildableName = "SpriteKitIntro.app"
-            BlueprintName = "SpriteKitIntro"
-            ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+            BuildableName = "KevinFlappy.app"
+            BlueprintName = "KevinFlappy"
+            ReferencedContainer = "container:KevinFlappy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A510BB71D163A93006E6258"
-            BuildableName = "SpriteKitIntro.app"
-            BlueprintName = "SpriteKitIntro"
-            ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+            BuildableName = "KevinFlappy.app"
+            BlueprintName = "KevinFlappy"
+            ReferencedContainer = "container:KevinFlappy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A510BB71D163A93006E6258"
-            BuildableName = "SpriteKitIntro.app"
-            BlueprintName = "SpriteKitIntro"
-            ReferencedContainer = "container:SpriteKitIntro.xcodeproj">
+            BuildableName = "KevinFlappy.app"
+            BlueprintName = "KevinFlappy"
+            ReferencedContainer = "container:KevinFlappy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

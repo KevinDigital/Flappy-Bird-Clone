@@ -16,6 +16,11 @@
 		0A510BCA1D163A93006E6258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A510BC81D163A93006E6258 /* LaunchScreen.storyboard */; };
 		0A510BD51D163A94006E6258 /* SpriteKitIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A510BD41D163A94006E6258 /* SpriteKitIntroTests.swift */; };
 		0A510BE01D163A94006E6258 /* SpriteKitIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A510BDF1D163A94006E6258 /* SpriteKitIntroUITests.swift */; };
+		0A510BEE1D190663006E6258 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0A510BED1D190663006E6258 /* 04B_19__.TTF */; };
+		0A51D1E01D41EF8700D620FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A51D1DF1D41EF8700D620FB /* AVFoundation.framework */; };
+		0A51D1E21D41F18400D620FB /* Jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A51D1E11D41F18300D620FB /* Jump.mp3 */; };
+		0A51D1E51D41F51F00D620FB /* Hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A51D1E41D41F51F00D620FB /* Hit.mp3 */; };
+		0A51D1E71D42EAEB00D620FB /* Coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A51D1E61D42EAEB00D620FB /* Coin.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A510BB81D163A93006E6258 /* SpriteKitIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A510BB81D163A93006E6258 /* KevinFlappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevinFlappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A510BBB1D163A93006E6258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A510BBD1D163A93006E6258 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		0A510BBF1D163A93006E6258 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -45,12 +50,17 @@
 		0A510BC61D163A93006E6258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A510BC91D163A93006E6258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A510BCB1D163A93006E6258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A510BD01D163A94006E6258 /* SpriteKitIntroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitIntroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A510BD01D163A94006E6258 /* KevinFlappy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevinFlappy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A510BD41D163A94006E6258 /* SpriteKitIntroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitIntroTests.swift; sourceTree = "<group>"; };
 		0A510BD61D163A94006E6258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A510BDB1D163A94006E6258 /* SpriteKitIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A510BDB1D163A94006E6258 /* KevinFlappy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevinFlappy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A510BDF1D163A94006E6258 /* SpriteKitIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitIntroUITests.swift; sourceTree = "<group>"; };
 		0A510BE11D163A94006E6258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A510BED1D190663006E6258 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
+		0A51D1DF1D41EF8700D620FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A51D1E11D41F18300D620FB /* Jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Jump.mp3; path = ../../../Downloads/Jump.mp3; sourceTree = "<group>"; };
+		0A51D1E41D41F51F00D620FB /* Hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hit.mp3; path = ../../../Downloads/Hit.mp3; sourceTree = "<group>"; };
+		0A51D1E61D42EAEB00D620FB /* Coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Coin.wav; path = ../../../Downloads/Coin.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A51D1E01D41EF8700D620FB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 		0A510BAF1D163A93006E6258 = {
 			isa = PBXGroup;
 			children = (
+				0A51D1DF1D41EF8700D620FB /* AVFoundation.framework */,
 				0A510BBA1D163A93006E6258 /* SpriteKitIntro */,
 				0A510BD31D163A94006E6258 /* SpriteKitIntroTests */,
 				0A510BDE1D163A94006E6258 /* SpriteKitIntroUITests */,
@@ -91,9 +103,9 @@
 		0A510BB91D163A93006E6258 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A510BB81D163A93006E6258 /* SpriteKitIntro.app */,
-				0A510BD01D163A94006E6258 /* SpriteKitIntroTests.xctest */,
-				0A510BDB1D163A94006E6258 /* SpriteKitIntroUITests.xctest */,
+				0A510BB81D163A93006E6258 /* KevinFlappy.app */,
+				0A510BD01D163A94006E6258 /* KevinFlappy.xctest */,
+				0A510BDB1D163A94006E6258 /* KevinFlappy.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,12 +114,14 @@
 			isa = PBXGroup;
 			children = (
 				0A510BBB1D163A93006E6258 /* AppDelegate.swift */,
+				0A510BED1D190663006E6258 /* 04B_19__.TTF */,
 				0A510BBD1D163A93006E6258 /* GameScene.sks */,
 				0A510BBF1D163A93006E6258 /* GameScene.swift */,
 				0A510BC11D163A93006E6258 /* GameViewController.swift */,
 				0A510BC31D163A93006E6258 /* Main.storyboard */,
 				0A510BC61D163A93006E6258 /* Assets.xcassets */,
 				0A510BC81D163A93006E6258 /* LaunchScreen.storyboard */,
+				0A51D1E31D41F43400D620FB /* Audio */,
 				0A510BCB1D163A93006E6258 /* Info.plist */,
 			);
 			path = SpriteKitIntro;
@@ -131,12 +145,22 @@
 			path = SpriteKitIntroUITests;
 			sourceTree = "<group>";
 		};
+		0A51D1E31D41F43400D620FB /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0A51D1E11D41F18300D620FB /* Jump.mp3 */,
+				0A51D1E41D41F51F00D620FB /* Hit.mp3 */,
+				0A51D1E61D42EAEB00D620FB /* Coin.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A510BB71D163A93006E6258 /* SpriteKitIntro */ = {
+		0A510BB71D163A93006E6258 /* KevinFlappy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A510BE41D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntro" */;
+			buildConfigurationList = 0A510BE41D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappy" */;
 			buildPhases = (
 				0A510BB41D163A93006E6258 /* Sources */,
 				0A510BB51D163A93006E6258 /* Frameworks */,
@@ -146,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = SpriteKitIntro;
+			name = KevinFlappy;
 			productName = SpriteKitIntro;
-			productReference = 0A510BB81D163A93006E6258 /* SpriteKitIntro.app */;
+			productReference = 0A510BB81D163A93006E6258 /* KevinFlappy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A510BCF1D163A94006E6258 /* SpriteKitIntroTests */ = {
+		0A510BCF1D163A94006E6258 /* KevinFlappyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A510BE71D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntroTests" */;
+			buildConfigurationList = 0A510BE71D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappyTests" */;
 			buildPhases = (
 				0A510BCC1D163A94006E6258 /* Sources */,
 				0A510BCD1D163A94006E6258 /* Frameworks */,
@@ -164,14 +188,14 @@
 			dependencies = (
 				0A510BD21D163A94006E6258 /* PBXTargetDependency */,
 			);
-			name = SpriteKitIntroTests;
+			name = KevinFlappyTests;
 			productName = SpriteKitIntroTests;
-			productReference = 0A510BD01D163A94006E6258 /* SpriteKitIntroTests.xctest */;
+			productReference = 0A510BD01D163A94006E6258 /* KevinFlappy.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0A510BDA1D163A94006E6258 /* SpriteKitIntroUITests */ = {
+		0A510BDA1D163A94006E6258 /* KevinFlappyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A510BEA1D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntroUITests" */;
+			buildConfigurationList = 0A510BEA1D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappyUITests" */;
 			buildPhases = (
 				0A510BD71D163A94006E6258 /* Sources */,
 				0A510BD81D163A94006E6258 /* Frameworks */,
@@ -182,9 +206,9 @@
 			dependencies = (
 				0A510BDD1D163A94006E6258 /* PBXTargetDependency */,
 			);
-			name = SpriteKitIntroUITests;
+			name = KevinFlappyUITests;
 			productName = SpriteKitIntroUITests;
-			productReference = 0A510BDB1D163A94006E6258 /* SpriteKitIntroUITests.xctest */;
+			productReference = 0A510BDB1D163A94006E6258 /* KevinFlappy.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,6 +223,7 @@
 				TargetAttributes = {
 					0A510BB71D163A93006E6258 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7J9L2FS3SJ;
 					};
 					0A510BCF1D163A94006E6258 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -210,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A510BB31D163A93006E6258 /* Build configuration list for PBXProject "SpriteKitIntro" */;
+			buildConfigurationList = 0A510BB31D163A93006E6258 /* Build configuration list for PBXProject "KevinFlappy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A510BB71D163A93006E6258 /* SpriteKitIntro */,
-				0A510BCF1D163A94006E6258 /* SpriteKitIntroTests */,
-				0A510BDA1D163A94006E6258 /* SpriteKitIntroUITests */,
+				0A510BB71D163A93006E6258 /* KevinFlappy */,
+				0A510BCF1D163A94006E6258 /* KevinFlappyTests */,
+				0A510BDA1D163A94006E6258 /* KevinFlappyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,8 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A510BBE1D163A93006E6258 /* GameScene.sks in Resources */,
+				0A51D1E21D41F18400D620FB /* Jump.mp3 in Resources */,
 				0A510BCA1D163A93006E6258 /* LaunchScreen.storyboard in Resources */,
+				0A51D1E71D42EAEB00D620FB /* Coin.wav in Resources */,
+				0A510BEE1D190663006E6258 /* 04B_19__.TTF in Resources */,
 				0A510BC71D163A93006E6258 /* Assets.xcassets in Resources */,
+				0A51D1E51D41F51F00D620FB /* Hit.mp3 in Resources */,
 				0A510BC51D163A93006E6258 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +319,12 @@
 /* Begin PBXTargetDependency section */
 		0A510BD21D163A94006E6258 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A510BB71D163A93006E6258 /* SpriteKitIntro */;
+			target = 0A510BB71D163A93006E6258 /* KevinFlappy */;
 			targetProxy = 0A510BD11D163A94006E6258 /* PBXContainerItemProxy */;
 		};
 		0A510BDD1D163A94006E6258 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A510BB71D163A93006E6258 /* SpriteKitIntro */;
+			target = 0A510BB71D163A93006E6258 /* KevinFlappy */;
 			targetProxy = 0A510BDC1D163A94006E6258 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpriteKitIntro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinli.KevinFlappy;
+				PRODUCT_NAME = KevinFlappy;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpriteKitIntro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinli.KevinFlappy;
+				PRODUCT_NAME = KevinFlappy;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -435,8 +470,8 @@
 				INFOPLIST_FILE = SpriteKitIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntroTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitIntro.app/SpriteKitIntro";
+				PRODUCT_NAME = KevinFlappy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevinFlappy.app/KevinFlappy";
 			};
 			name = Debug;
 		};
@@ -447,8 +482,8 @@
 				INFOPLIST_FILE = SpriteKitIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntroTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitIntro.app/SpriteKitIntro";
+				PRODUCT_NAME = KevinFlappy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevinFlappy.app/KevinFlappy";
 			};
 			name = Release;
 		};
@@ -459,7 +494,7 @@
 				INFOPLIST_FILE = SpriteKitIntroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntroUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KevinFlappy;
 				TEST_TARGET_NAME = SpriteKitIntro;
 			};
 			name = Debug;
@@ -470,7 +505,7 @@
 				INFOPLIST_FILE = SpriteKitIntroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinli.SpriteKitIntroUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KevinFlappy;
 				TEST_TARGET_NAME = SpriteKitIntro;
 			};
 			name = Release;
@@ -478,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A510BB31D163A93006E6258 /* Build configuration list for PBXProject "SpriteKitIntro" */ = {
+		0A510BB31D163A93006E6258 /* Build configuration list for PBXProject "KevinFlappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A510BE21D163A94006E6258 /* Debug */,
@@ -487,29 +522,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A510BE41D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntro" */ = {
+		0A510BE41D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A510BE51D163A94006E6258 /* Debug */,
 				0A510BE61D163A94006E6258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0A510BE71D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntroTests" */ = {
+		0A510BE71D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A510BE81D163A94006E6258 /* Debug */,
 				0A510BE91D163A94006E6258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0A510BEA1D163A94006E6258 /* Build configuration list for PBXNativeTarget "SpriteKitIntroUITests" */ = {
+		0A510BEA1D163A94006E6258 /* Build configuration list for PBXNativeTarget "KevinFlappyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A510BEB1D163A94006E6258 /* Debug */,
 				0A510BEC1D163A94006E6258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

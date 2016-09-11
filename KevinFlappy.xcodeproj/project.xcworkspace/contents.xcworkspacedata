@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SpriteKitIntro.xcodeproj">
+      location = "self:/Users/Kevin/Projects/SpriteKitIntro/KevinFlappy.xcodeproj">
    </FileRef>
 </Workspace>
